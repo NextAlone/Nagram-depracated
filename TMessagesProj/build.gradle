@@ -1,3 +1,6 @@
+import java.nio.file.Files
+import java.nio.file.Paths
+
 plugins {
     id 'com.android.application'
     id 'com.google.gms.google-services'
@@ -118,7 +121,7 @@ android {
         }
     }
 
-    defaultConfig.versionCode = 2532
+    defaultConfig.versionCode = 2538
 
     applicationVariants.all { variant ->
         variant.outputs.all { output ->
@@ -133,7 +136,7 @@ android {
     defaultConfig {
         minSdkVersion 21
         targetSdkVersion 32
-        versionName "8.4.3"
+        versionName "8.4.4"
 
         externalNativeBuild {
             cmake {
