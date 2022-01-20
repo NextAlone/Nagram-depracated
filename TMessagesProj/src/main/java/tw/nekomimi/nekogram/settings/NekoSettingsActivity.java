@@ -169,7 +169,7 @@ public class NekoSettingsActivity extends BaseFragment implements NotificationCe
                         if (NekoConfig.showHiddenFeature) {
                             AndroidUtilities.shakeView(view, 2, 0);
                         }
-                        EmbedBottomSheet.show(getParentActivity(), null, null, NekoConfig.isChineseUser ? "BiliBili" : "YouTube", "Nekogram Secrets", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.youtube.com/embed/dQw4w9WgXcQ", 1280, 720, 0, false);
+//                        EmbedBottomSheet.show(getParentActivity(), null, null, NekoConfig.isChineseUser ? "BiliBili" : "YouTube", "Nekogram Secrets", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "https://www.youtube.com/embed/dQw4w9WgXcQ", 1280, 720, 0, false);
                         return true;
                     }
                 }
